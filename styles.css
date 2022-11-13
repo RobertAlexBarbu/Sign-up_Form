@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@font-face {
+    font-family: burger;
+    src: url(./Caveat-Bold.ttf);
+}
+
+
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    height: 100%;
+}
+.container {
+    display: flex;
+    height: 100%;
+}
+.section1 {
+    background-image: url(./bg.jpeg);
+    height: 100%;
+    width: 35%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section2 {
+    background-color: white;
+    height: 100%;
+    width: 65%;
+}
+.logo-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 130px;
+    position: relative;
+    top: 20%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 25px;
+}
+img {
+    height: 90px;
+}
+.logo-text{
+    font-size: min(5vw, 60px);
+    position: relative;
+    top: 15px;
+    color: white;
+    font-family: 'Alfa Slab One';
+}
