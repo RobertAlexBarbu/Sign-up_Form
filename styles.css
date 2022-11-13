@@ -8,6 +8,7 @@
 
 html {
     height: 100%;
+    font-family: arial;
 }
 body {
     margin: 0;
@@ -24,15 +25,21 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+
+
+
 .section2 {
     background-color: white;
     height: 100%;
     width: 65%;
+    position: relative;
 }
 .logo-container {
     background-color: rgba(0, 0, 0, 0.5);
     height: 130px;
-    position: relative;
+    position: absolute;
+    width: 35%;
     top: 20%;
 
     display: flex;
@@ -49,4 +56,21 @@ img {
     top: 15px;
     color: white;
     font-family: 'Alfa Slab One';
+}
+
+
+
+.author {
+    color: white;
+    text-align: center;
+    top: 90vh;
+    font-size: min(15px,3vh);
+    position: relative;
+
+}
+.author span {
+    text-decoration: underline;
+}
+a:visited {
+    color: white;
 }
