@@ -131,7 +131,7 @@ input:focus {
     box-shadow: 0 1px 4px 1px rgb(183, 181, 181);
 }
 .bottom-section button {
-    background-color: rgb(255, 191, 0);
+    background-color: rgb(255, 157, 0);;
     color: white;
     font-weight: bold;
     border-width: 0px;
@@ -144,10 +144,8 @@ input:focus {
     box-shadow: 0 1px 4px 1px rgb(183, 181, 181);
     cursor: pointer;
 }
+
 .bottom-section button:hover {
-    background-color: rgb(255, 157, 0);
-}
-.bottom-section button:active {
     background-color: white;
     color: rgb(255, 157, 0);
     border: 2px solid rgb(255, 157, 0);
@@ -155,6 +153,7 @@ input:focus {
 .bottom-section p {
     position: relative;
     left: 60px;
+    width: 20vw;
 }
 .bottom-section span {
     font-weight: bold;
